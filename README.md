@@ -31,18 +31,6 @@ O termo **_Lite_** não significa que seja uma versão reduzida ou simplificada 
 
 🔎 Para mais detalhes, acesse **[Filosofia do ISO29110-Lite](./docs/pt-br/philosophy/philosophy.md)**
 
-## Cenários de Uso: Como aplicar o ISO29110-Lite
-
-O **ISO29110-Lite** pode ser adotado em diferentes contextos, dependendo das necessidades da empresa:
-
-🔹 **Empresas buscando certificação**  
-Empresas que desejam obter a certificação ISO29110 podem usar o Lite como um **passo preparatório**. Ele ajuda a estabelecer os conceitos fundamentais de gestão de processos antes da adoção formal do Guia de Implantação. Isso reduz a resistência à certificação e torna a transição mais eficiente.  
-🔎 Consulte **[ISO29110-Lite para certificação](./docs/ptbr/use-cases/certification.md)**
-
-🔹 **Empresas interessadas na cultura de processos**  
-Nem todas as empresas precisam de certificação imediata, mas todas podem se beneficiar de uma gestão estruturada. O Lite permite que pequenas empresas adotem processos organizados sem a pressão da certificação, mantendo a compatibilidade caso desejem certificar-se no futuro.  
-🔎 Consulte **[ISO29110-Lite para Cultura de Processos](./docs/ptbr/use-cases/process-culture.md)**
-
 ## Motivação
 
 O **ISO29110-Lite** nasceu da necessidade de um modelo que conciliasse a **simplicidade inicial** com a **compatibilidade total ao ISO29110 original**. Ele foi idealizado para resolver a complexidade inicial de adoção completa da imediato.
@@ -99,15 +87,15 @@ A partir dessas regras e documentos, é possível estruturar processos de forma 
 
 🔎 Para mais detalhes, consulte **[Estrutura de Documentação](./docs/ptbr/structure.md)**
 
-## Cenários de Uso
+## Cenários de Uso: Como aplicar o ISO29110-Lite
 
 O **ISO29110-Lite** pode ser adotado em diferentes contextos, dependendo das necessidades da empresa:
 
-🔹 **Cenário 1 - Empresas buscando certificação**  
+🔹 **Empresas buscando certificação**  
 Empresas que desejam obter a certificação ISO29110 podem usar o Lite como um **passo preparatório**. Ele ajuda a estabelecer os conceitos fundamentais de gestão de processos antes da adoção formal do Guia de Implantação. Isso reduz a resistência à certificação e torna a transição mais eficiente.  
 🔎 Consulte **[ISO29110-Lite para certificação](./docs/ptbr/use-cases/certification.md)**
 
-🔹 **Cenário 2 - Empresas interessadas na cultura de processos**  
+🔹 **Empresas interessadas na cultura de processos**  
 Nem todas as empresas precisam de certificação imediata, mas todas podem se beneficiar de uma gestão estruturada. O Lite permite que pequenas empresas adotem processos organizados sem a pressão da certificação, mantendo a compatibilidade caso desejem certificar-se no futuro.  
 🔎 Consulte **[ISO29110-Lite para Cultura de Processos](./docs/ptbr/use-cases/process-culture.md)**
 
