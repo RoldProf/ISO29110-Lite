@@ -1,149 +1,206 @@
 <p align="center">
-   <img src="./assets/logo/logo.png" width="30%">
+  <img src="./assets/iso29110lite.svg" alt="iso29110lite Logo" width="30%"/>
 </p>
 
-> 🚧 **ISO29110-Lite ainda está em fase de protótipo!**  
+> 🚧 **ISO29110-Lite ainda está em fase de protótipo!** 
+> 
 > Este projeto está na fase inicial, focado na **definição conceitual e estruturação progressiva**. Algumas seções podem estar **incompletas ou em revisão**.  
-> A documentação, exemplos práticos e funcionalidades ainda estão em desenvolvimento.  
+> A documentação, exemplos práticos e funcionalidades ainda estão em desenvolvimento.
+>
+>📌 Nesta fase, estamos estruturando:
+>
+> - 🏗 Conceitos e fundamentos globais
+> - 📄 Documentação progressiva vinculada a este README
 
 # ISO29110-Lite - _Gestão Progressiva de Projetos e Qualidade_
 
+## intro
+
 ![Status](https://img.shields.io/badge/Status-Experimental-orange?style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors/SysDevTools/FlowED?label=Contribuidores&style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/SysDevTools/ISO29110-Lite?label=Contribuidores&style=for-the-badge)
 ![Foco](https://img.shields.io/badge/Foco-Gestão_de_Projetos_e_Qualidade-blue?style=for-the-badge)
+![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-green?style=for-the-badge)
 
-O **ISO29110-Lite** é um modelo de aprendizado prático e progressivo que permite que empresas, equipes e projetos **internalizem conceitos de Gestão de Projetos (_ISO 29110_) e Qualidade (_ISO 9000_) enquanto trabalham**.  
+O **ISO29110-Lite** é um modelo de aprendizado [prático](./docs/pt-br/dictionary.md#prático) e [progressivo](./docs/pt-br/dictionary.md#progressividade) voltado para a internalização de conceitos de [gestão de projetos](./docs/pt-br/dictionary.md#gestão-de-projetos) (_ISO 29110_) e [controle da qualidade](./docs/pt-br/dictionary.md#controle-da-qualidade) (_ISO 9000_), priorizando o **autoaprendizado como meio de evolução e desenvolvimento da consciência crítica** sobre esses conceitos.  
 
-> **"Gestão e qualidade: Conceito antes da norma. Início padronizado, evolução autoaprendida"**  
+Dessa forma, o **ISO29110-Lite** não substitui normas formais nem mesmo constitui um modelo de implantação. Seu foco está na absorção **gradual e consciente** das boas práticas, permitindo que equipes experimentem e adaptem seus processos sem comprometer a rastreabilidade. Embora a estrutura dos processos evolua organicamente, a documentação segue um formato padronizado desde o início, garantindo [rastreabilidade](./docs/pt-br/dictionary.md#rastreabilidade) e reaproveitamento futuro sem limitar a flexibilidade do aprendizado.  
 
-Dessa forma, o **ISO29110-Lite** não é uma implementação direta dessas normas, mas um caminho flexível para a adoção gradual de seus **_conceitos_**. Em vez de impor processos predefinidos, ele permite que equipes absorvam princípios de gestão de projetos e qualidade por meio do aprendizado empírico. Por outro lado, adota uma estrutura documental rígida desde o início, garantindo que as informações sejam organizadas, rastreáveis e reutilizáveis, facilitando futuras transições para normas formais, se desejado.
+Assim, não tem como propósito central a certificação ou a adoção formal de normas, mas pode ser utilizado como um passo preparatório para modelos de implantação, auxiliando equipes a desenvolverem maturidade e consciência crítica antes de processos de certificação ou implantação de normas específicas.
 
-> **📌 Gestão de Projetos: Metodologias vs. Estruturação**
->
->🔹 **Diferente de metodologias como FlowED ou Scrum**, que organizam a **execução diária do trabalho**, a **ISO 29110 foca na estruturação e rastreabilidade do projeto como um todo**.  
->
->🔹 O **ISO29110-Lite ajuda as equipes a entender essa diferença na prática**, permitindo que utilizem **suas próprias metodologias ágeis enquanto mantêm um modelo de gestão de projetos estruturado e rastreável**.  
+> 💡 "**Gestão e qualidade: Conceito antes da norma. Início padronizado, evolução autoaprendida.**"
 
-🔎 Para mais detalhes, consulte **[Visão Geral do ISO29110-Lite](./docs/pt-br/philosophy/overview.md)**
+🔎 Para mais detalhes, acesse **[Filosofia do ISO29110-Lite](./docs/pt-br/philosophy/philosophy.md)**
 
 ## **Motivação**  
 
-A motivação que impulsiona a criação e manutenção do **ISO29110-Lite** parte de uma premissa: **a adoção de boas práticas de gestão de projetos e da gestão da qualidade não devem ser um obstáculo, mas sim um processo natural e acessível**.
+A adoção de boas práticas em gestão de projetos e qualidade frequentemente se torna um processo de **adesão superficial e mecânica**, onde normas são aplicadas sem que seus conceitos sejam verdadeiramente compreendidos. Em um ambiente ideal, **a internalização dos princípios deveria preceder sua formalização**, garantindo que práticas estruturadas não sejam apenas regras a serem seguidas, mas sim reflexos de um conhecimento sólido e crítico.  
 
-Normas tradicionais, como a _ISO/IEC 29110_ e a _ISO 9000_, oferecem diretrizes valiosas mas sua estrutura pode ser um desafio para quem ainda não internalizou seus conceitos.  
+Esse cenário levanta um dilema: **normas rigorosas garantem rastreabilidade, mas sufocam o aprendizado**, enquanto abordagens flexíveis promovem adaptação, mas carecem de estrutura documental reaproveitável. O desafio está em equilibrar esses dois extremos, permitindo que equipes desenvolvam **autonomia e consciência crítica**, sem comprometer a rastreabilidade ou depender de suporte externo para interpretar o que deveria ser intuitivo.  
 
-Essa barreira na adoção gera paradoxos tanto na indústria quanto no meio acadêmico, como:  
+> 💡 **"Normas não são um fim, mas um reflexo do conhecimento. Sem aprendizado, a conformidade se torna apenas um ritual burocrático."**  
 
-🔧 **Na indústria** → Pequenas empresas e startups frequentemente evitam metodologias estruturadas por considerá-las burocráticas. Quando crescem e precisam adotar padrões como a _ISO/IEC 29110_ ou a _ISO 9000_, enfrentam dificuldades porque nunca internalizaram esses conceitos antes.  
+---
 
-🎓 **Na academia e aprendizado prático** → Estudantes e novos profissionais aprendem metodologias rígidas sem um contexto aplicado, criando uma lacuna entre teoria e prática no mercado de trabalho.  
+### 📌 O que uma metodologia deve buscar para ser eficaz
 
-O **ISO29110-Lite** propõe um caminho diferente: **em vez de impor processos prontos, ele permite que equipes desenvolvam seus próprios fluxos de trabalho, evoluindo progressivamente pelo autoaprendizado**.  
+🧩 **A compreensão deve vir antes da padronização** → Um modelo de gestão eficaz não pode se basear apenas na adesão mecânica às normas. Os conceitos precisam ser internalizados de forma progressiva, garantindo que processos não sejam seguidos por imposição externa, mas porque fazem sentido para quem os aplica.
 
-Essa abordagem reduz a complexidade inicial e torna a adoção das boas práticas um processo empírico. Ainda que percam eficiência com processos mal definidos, a adesão e a compreensão dos **conceitos** se dará de forma orgânica e, por tanto, mais consciente.  
+🧩 **A autonomia deve preceder a conformidade** → Se uma metodologia exige um especialista para ser interpretada e aplicada corretamente, ela não está promovendo autonomia. Um modelo eficaz deve garantir que as equipes tenham maturidade conceitual para analisar criticamente uma norma externa, sem depender de consultoria para validar cada decisão. A experiência consolidada das normas é valiosa, mas não pode anteceder a autonomia crítica necessária para avaliá-las e aplicá-las conscientemente.
 
-🔎 Para mais detalhes sobre as motivações e lacunas que levaram ao desenvolvimento do ISO29110-Lite, acesse **[Motivação do ISO29110-Lite](./docs/ptbr/philosophy/motivation.md)**.  
+🧩 **O aprendizado deve ser experimental, mas a rastreabilidade garantida** → Equipes precisam de liberdade para experimentar e adaptar suas práticas sem comprometer a documentação estruturada. Um processo que evolui organicamente não pode resultar na perda de informações ou na falta de rastreabilidade sobre o que foi aprendido e aprimorado ao longo do tempo.
+
+🧩 **A estrutura inicial deve ser mínima, mas funcional** → Modelos tradicionais priorizam a adoção rápida de normas, muitas vezes ignorando a necessidade de uma base estruturada para experimentação. Uma abordagem eficaz deve oferecer um modelo de documentação que seja leve, mas suficiente para garantir organização e reaproveitamento futuro.
+
+🧩 **A eficiência deve ser uma consequência, não um requisito** → Modelos rígidos exigem eficiência desde o início, enquanto abordagens sem estrutura deixam a otimização para um momento indefinido. No entanto, a eficiência sustentável só pode emergir naturalmente do aprendizado progressivo, e não como uma exigência prematura imposta antes que os conceitos sejam compreendidos.
+
+> 💡 **"O aprendizado real acontece quando os processos fazem sentido para quem os executa. Sem essa compreensão, qualquer modelo se torna apenas um conjunto de regras a serem seguidas."**  
+
+🔎 Para mais detalhes sobre as motivações do ISO29110-Lite, acesse **[Motivação do ISO29110-Lite](./docs/pt-br/philosophy/motivation.md)**
 
 ## Referências e Influências do ISO29110-Lite
 
-O **ISO29110-Lite** foi desenvolvido com base nos **conceitos fundamentais de Gestão de Projetos (_ISO 29110_) e Qualidade (_ISO 9000_)**, mas sem a rigidez dessas normas. Ele combina essas referências com abordagens práticas que tornam a adoção de boas práticas **mais natural e progressiva**.  
+O **ISO29110-Lite** foi desenvolvido com base nos **conceitos fundamentais da [gestão de projetos](./docs/pt-br/dictionary.md#gestão-de-projetos) e qualidade**, mas sem a rigidez das normas tradicionais. Ele combina essas referências com abordagens **práticas e progressivas**, permitindo que equipes adotem boas práticas sem uma transição abrupta.  
 
-### Referências principais  
+🔹 **[ISO/IEC 29110](https://www.iso.org/standard/85338.html)** → Norma voltada para pequenas organizações que buscam estruturar seus projetos de software. O **ISO29110-Lite** adota seus princípios, mas sem exigir conformidade formal.  
 
-🔹 **ISO/IEC 29110** → Norma voltada para pequenas organizações que buscam estruturar projetos de software com processos bem definidos.  
-🔗 [https://www.iso.org/standard/85338.html](https://www.iso.org/standard/85338.html)  
+🔹 **[Guia de Implantação da ISO 29110](https://www.iso.org/standard/62790.html)** → Método oficial para implementação da **ISO 29110**. Diferente do **ISO29110-Lite**, ele fornece um conjunto de **procedimentos prontos**, mas permite que cada empresa defina seus próprios documentos.
 
-🔹 **Família ISO 9000** → Conjunto de normas voltadas para a gestão da qualidade e melhoria contínua, aplicáveis a qualquer setor.  
-🔗 [https://www.iso.org/standards/popular/iso-9000-family](https://www.iso.org/standards/popular/iso-9000-family)  
+### 📌 Diferença entre o **ISO29110-Lite** e o **Guia de Implantação**  
 
----
+O **[Guia de Implantação](https://www.iso.org/standard/62790.html)** da **ISO29110** define **procedimentos prontos**, mas permite liberdade no formato da documentação. Já o **ISO29110-Lite** faz o contrário:  
 
-### Influências na abordagem  
+🔹 **Impõe um formato documental rígido**, garantindo [rastreabilidade](./docs/pt-br/dictionary.md#rastreabilidade) desde o início.  
+🔹 **Deixa que a equipe crie seus próprios procedimentos**, permitindo adaptação progressiva à realidade do time mas principalmente a adesão pela evolução empírica e autoaprendida.  
 
-O _Lite_ também se inspira, ainda que parcialmente, em outras metodologias para facilitar a adesão prática dos **conceitos** das suas normas de referência. Porém, não exige conformidade rígida com nenhuma delas:  
+Essa abordagem torna o **ISO29110-Lite** um **passo intermediário** entre o uso informal de boas práticas e a certificação formal. Ele permite que equipes internalizem os princípios da **ISO 29110** sem uma mudança abrupta de cultura.  
 
-🔹 **Lean Thinking** → Redução de burocracia e foco no que realmente agrega valor para a equipe.  
-🔗 [https://www.lean.org/](https://www.lean.org/)  
+🔹 **[ISO 9000](https://www.iso.org/standards/popular/iso-9000-family)** → Conjunto de normas para **gestão da qualidade** e melhoria contínua. No **ISO29110-Lite**, os conceitos de rastreabilidade e documentação estruturada são incorporados desde o início, mas sem processos rígidos.  
 
-🔹 **Agile** → Iterações curtas e aprendizado progressivo em ciclos contínuos.  
-🔗 [https://agilemanifesto.org/iso/ptbr/manifesto.html](https://agilemanifesto.org/iso/ptbr/manifesto.html)  
+🔹 **[Lean Thinking](https://www.lean.org/)** → Redução da burocracia e foco no que realmente agrega valor. O **ISO29110-Lite** mantém apenas o essencial para a rastreabilidade e aprendizado.  
 
-🔹 **Simplicidade e Minimalismo** → Aplicação dos princípios **KISS (Keep It Simple, Stupid)** e **YAGNI (You Aren’t Gonna Need It)**, garantindo que apenas o necessário seja implementado no momento certo.  
-🔗 [https://en.wikipedia.org/wiki/KISS_principle](https://en.wikipedia.org/wiki/KISS_principle)  
+🔹 **[Agile](https://agilemanifesto.org/iso/ptbr/manifesto.html) e [Scrum](https://scrumguides.org/)** → O **ISO29110-Lite** se **alinha** ao **Agile** ao incentivar evolução progressiva, mas se **desalinha** na importância que dá para a documentação e entrega.  
 
-## **Filosofia e Princípios do ISO29110-Lite**  
+🔹 **[KISS (Keep It Simple, Stupid)](https://en.wikipedia.org/wiki/KISS_principle) e [YAGNI (You Aren't Gonna Need It)](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)** → Princípios que influenciam a simplificação do **ISO29110-Lite**. Ele exige apenas o mínimo necessário para garantir rastreabilidade, sem criar sobrecarga documental.  
 
-Como citado, o **ISO29110-Lite** não é uma implementação direta das normas _ISO 29110_ ou _ISO 9000_ e nem uma forma de implementá-las. É um caminho flexível para a internalização de seus **conceitos**. 
-Para isso, ao invez de impor processos predefinidos, o projeto permite que equipes absorvam os princípios de **gestão de projetos e qualidade** por meio do aprendizado empírico. Por outro lado, adota uma estrutura documental rígida desde o início, garantindo rastreabilidade, organização e reutilização futura das informações.  
+Dessa forma, o **ISO29110-Lite** não substitui normas nem impõe um novo modelo. Ele **cria um caminho acessível para que equipes aprendam e internalizem os conceitos fundamentais da gestão de projetos e qualidade, buscando ou não uma certificação formal**.  
 
-🔹 **Aprendizado antes da padronização** → O _Lite_ propõe que times experimentem, ajustem e internalizem conceitos antes de formalizá-los.  
-🔹 **Adesão orgânica vs. eficiência imediata** → Em vez de seguir um modelo pronto e validado, como o _Guia de Implantação do Perfil Entry da ISO 29110_, o _Lite_ permite que equipes construam seus próprios processos e absorvam as boas práticas de forma natural.  
-🔹 **Padronização documental obrigatória** → por outro lado, diferentemente do mesmo _Guia_, que permite liberdade na estrutura dos documentos, o _Lite_ exige um formato fixo desde o início. Isso garante **consistência, rastreabilidade e reaproveitamento futuro**, preparando o time para uma eventual adoção estruturada de normas formais.  
-🔹 **Tudo em um: conceitos integrados desde o início** → No _Lite_, **Gestão de Projetos (PM), Implementação de Software (SI) e Garantia de Qualidade (QA) são documentados juntos, dentro do mesmo POP**. Assim, enquanto um processo é descrito, suas informações são automaticamente organizadas e categorizadas, permitindo que a equipe **absorva e diferencie esses conceitos na prática**. Esse modelo elimina a necessidade de treinamentos isolados para cada área, tornando o entendimento mais intuitivo e natural.  
+💡 > **"Gestão e qualidade orgânica, indepentende, autônima e sustentável vem da consciência, mais do que em normas, mesmo as eficientes."**  
 
-> **"_O Lite não substitui normas nem suas metodologias de implantação. Apresenta um caminho diferente que pode, inclusive, facilitar a formalização nelas_"**  
+🔎 Para mais detalhes sobre a abordagem do projeto, acesse **[ISO29110-Lite Comparado](./docs/pt-br/philosophy/comparison.md)**
+
+## Filosofia do ISO29110-Lite  
+
+O **ISO29110-Lite** propõe um caminho alternativo às abordagens metodológicas tradicionais.  
+**Em vez de impor processos prontos, ele permite que equipes desenvolvam seus próprios fluxos de trabalho**, evoluindo progressivamente pelo **autoaprendizado**, sem focar na eficiência imediata, mas sim na **adesão orgânica dos conceitos**.  
+
+Essa abordagem reduz a complexidade inicial e torna a adoção das boas práticas um **processo empírico**. Mesmo que haja perdas de eficiência no início, a compreensão dos **conceitos** acontece de forma mais natural e consciente, garantindo aprendizado sustentável.  
+
+### 📌 Princípios fudamentais do ISO29110-Lite  
+
+O **ISO29110-Lite** não é uma implementação direta das normas _ISO 29110_ ou _ISO 9000_ e nem um modelo, estratégia ou processo de implementação, mas um modelo flexível que permite a internalização progressiva de seus **conceitos**. Ele possui três diferenciais essenciais:  
+
+🔹 **Aprendizado antes da normalização** → O _Lite_ propõe que equipes experimentem, ajustem e internalizem conceitos antes de formalizá-los como forma de consciência analítica das normas ou procedimentos externos.  
+🔹 **Adesão orgânica vs. eficiência imediata** → Em vez de seguir um modelo pronto e validado, como o **Guia de Implantação da ISO 29110**, o _Lite_ prioriza que equipes construam seus próprios processos e absorvam boas práticas de forma natural e acredita que, para isso, o melhor caminho seja o autoaprendizado, mesmo sabendo que ele tende a produzir normas menos eficientes.  
+🔹 **Padronização documental obrigatória** → Diferente do **Guia de Implantação**, que permite liberdade na estrutura dos documentos, o _Lite_ exige um **formato fixo** desde o início. Isso garante **consistência, [rastreabilidade](./docs/pt-br/dictionary.md#rastreabilidade) e reaproveitamento futuro**, preparando o time para uma eventual certificação formal.  
+🔹 **Abordagem Unificada e documentação inicial integrada** → O _Lite_ acredita que há menos dificuldade se os conceitos forem entendidos do mais genérico para o mais específico. Assim, inicia tratanto gstão de qualidade e de projetos de forma integrada e unificada. Acredita e proporciona que gradativamente os conceitos mais específicos sejam esclarescidos pela experiência empírica e autônoma. Essa abordagem torna o entendimento mais intuitivo e natural.  
+
+💡 > **"_O Lite não substitui normas nem suas metodologias de implantação. Ele apresenta um caminho diferente, que pode até mesmo facilitar a formalização nelas._"**  
 
 🔎 Para mais detalhes, consulte **[Filosofia do ISO29110-Lite](./docs/pt-br/philosophy/philosophy.md)**.  
 
-## Como Funciona  
+## Como Funciona e por onde começar
 
-O **ISO29110-Lite** adota uma abordagem **progressiva e prática** para a estruturação de processos de **gestão de projetos e qualidade**, inspirada nos princípios da _ISO/IEC 29110_ e da _ISO 9000_. Ele permite que empresas, equipes e projetos desenvolvam suas próprias estruturas organizacionais de maneira **flexível**, sem necessidade de aderência imediata a normas formais.
+Apesar de não impor processos de gestão do projeto, o **ISO29110-Lite** adota uma abordagem **padronizada e automatizada** para estruturá-los.  
+Assim, impõe regras para a criação de procedimentos e determina a estrutura de formulação, apresentação, gestão e manipulação de documentos.
+O funcionamento é baseado em **documentação modular** e é composto por quatro componentes principais:
 
-Seu funcionamento é baseado em **documentação modular**, garantindo organização e evolução contínua. Os principais documentos utilizados são:  
+🔹 **POPs (Procedimentos Operacionais Padrão)** → Definem **tarefas e subtarefas** necessárias para a execução de um processo. Tem formato, apresentação, composição e gestão padronizados.
 
-- **POPs (Procedimentos Operacionais Padrão)**: Definem **tarefas e subtarefas** necessárias para a execução de um processo, garantindo consistência e padronização. Cada **POP** pode incorporar conceitos presentes nas normas de referência, mas sem obrigatoriedade de conformidade (pelo menos de forma imediata).  
+🔹 **DOCs (Documentos de Controle)** → Complementam os POPs ao definir **critérios de qualidade e validação**, assegurando que os processos sejam auditáveis e passíveis de melhoria contínua.  
 
-- **DOCs (Documentos de Controle)**: Complementam os **POPs** ao estabelecer **critérios de qualidade e validação**. Eles asseguram que os processos sejam auditáveis e possam evoluir conforme a experiência do time.
+🔹 **ISOL (Ferramenta de Gestão de POPs, DOCs e NCs)** → Utilitário interativo para criação, gerenciamento e controle de documentos, além do registro e tratamento de **Não Conformidades (NCs)**.  
 
-### 📌 **POPs e seus Campos Pré-definidos**  
+🔹 **Template de estruturação** → Fornece a base padronizada para documentação inicial, garantindo que os registros sigam um formato reutilizável e rastreável.  
 
-Cada **POP segue um modelo estruturado**, composto por **campos pré-definidos** inspirados nos princípios das normas **ISO/IEC 29110** e da família **ISO 9000**. Esses campos podem ser preenchidos ou não, dependendo do contexto do projeto, do nível de maturidade da equipe e da necessidade específica do processo.  
+💡 > **"_Estrutura mínima, rastreabilidade máxima. O Lite organiza o aprendizado e garante o reaproveitamento de informações, a partir de documentação estruturada desde o início._"**  
 
-🔹 **Os campos do POP são categorizados em:**
-
-✅ **PM (Gerência de Projetos)** → Planejamento, rastreabilidade e acompanhamento.
-
-✅ **SI (Implementação de Software)** → Execução técnica, desenvolvimento e entregáveis.
-
-✅ **QA (Qualidade)** → Validação, auditoria e melhoria contínua.
-
-Mesmo que uma empresa, equipe ou projeto ainda não tenha aderido formalmente a uma norma, essa estruturação garante que **todos os conceitos fundamentais estejam disponíveis desde o início**, permitindo aprendizado progressivo e facilitando a futura adaptação para certificações, caso necessário.
-
-> Ao identificar claramente esses tipos de informação desde o início, o Lite **facilita a compreensão e internalização dos princípios fundamentais da norma na prática**.
+🔎 Para mais detalhes, consulte **[Estrutura de Documentação](./docs/pt-br/adoption/structure.md)**.  
 
 ---
 
-### O POP000
+### 📌 Estrutura e Categorização dos POPs  
 
-O _Lite_ fornece documentos base, **POP-000** e **DOC-000** que estabelecem diretrizes e orientações para criação e evolução dos demais POPs.
+Os **POPs** seguem um modelo estruturado, iniciando pela categorização dos **campos** disponíveis para alimentar os POPs.
 
-Dessa forma, a equipe pode estruturar processos de forma **simples, adaptável e progressiva**, garantindo aprendizado contínuo mas com conteúdo rastreável e reaproveitável.
+🔹 **Os campos são categorizados em:**  
 
-🔎 Para mais detalhes, consulte **[Estrutura de Documentação](./docs/ptbr/structure.md)**.  
+✅ **PM (Gerência de Projetos)** → Planejamento, rastreabilidade e acompanhamento.  
+✅ **SI (Implementação de Software)** → Execução técnica, desenvolvimento e entregáveis.  
+✅ **QA (Qualidade)** → Validação, auditoria e melhoria contínua.  
 
-## **Por Onde Começar?**  
+Apenas campos obrigatórios na estrutura mínima das normas é imposta. Porém, todos os campos das duas normas (**ISO/IEC 29110** e **ISO 9000**.) estarão disponíveis e podem ser adotados progressivamente.
 
-O **ISO29110-Lite** oferece um caminho estruturado para adoção com **mínima burocracia inicial**, permitindo que equipes implementem conceitos de **gestão de projetos e qualidade** de forma progressiva e natural.
+💡 > **"A gestão de projetos e da qualidade encapsulados e integrados: a consciência, do geral ao específico, de forma natural"**.  
 
-Ele pode ser utilizado de duas formas:  
+🔎 Para mais detalhes, consulte **[Estrutura de POPs e DOCs](./docs/pt-br/adoption/pop-structure.md)**.  
 
-🔹 **Com suporte do CLI (automatizado)** → Ideal para equipes que querem rastreabilidade e documentação estruturada desde o início.  
-🔹 **De forma manual (flexível)** → Para quem deseja explorar os conceitos e adaptar a estrutura conforme as necessidades do time.  
+---
 
-Ambas as abordagens garantem que a equipe **registre seus processos de forma organizada e progressiva**, permitindo crescimento sustentável e possíveis certificações futuras.  
+### 📌 Documentos Base: POP-000 e DOC-000  
 
-### **📌 Principais passos de implantação**  
+Seguindo o princípio de gestao livre de processos mas rígida da documentação, dois documentos determinam a forma como procedimentos são criados:  
 
-1️⃣ **Clone este repositório** ou crie um novo projeto baseado nele.  
-2️⃣ **Leia o POP-000** → Esse documento define as diretrizes para criação e evolução dos POPs.  
-3️⃣ **Defina um primeiro processo a ser documentado** → Escolha algo simples e relevante para a equipe.  
-4️⃣ **Utilize os templates de POPs e DOCs** → Mesmo que o preenchimento não seja completo no início, a estrutura será útil no futuro.  
-5️⃣ **Adapte e expanda progressivamente** → Os documentos podem evoluir conforme a equipe amadurece e entende melhor os conceitos.  
-6️⃣ **(Opcional) Automatize com o CLI do Lite** → Para facilitar a rastreabilidade e garantir um histórico bem organizado.  
+📌 **POP-000** → Define a estrutura mínima obrigatória de um Procedimento Operacional Padrão.  
+📌 **DOC-000** → Estabelece critérios básicos para validação e controle dos processos documentados.  
 
-> **"_Início rígido, caminho nativo, progressivo, rastreável e reutilizável!_"** 🚀
+💡 > **"No ISO29110-Lite, a única imposição é garantir a base para o autoconhecimento e rastreabilidade."**  
 
-🔎 Para mais detalhes sobre os templates e primeiros passos, consulte **[Estrutura de Implantação](./docs/ptbr/adoption/install.md)**.
+🔎 Para mais detalhes, consulte **[POP-000 e DOC-000](./docs/pt-br/adoption/pop-doc-base.md)**.  
+
+---
+
+### 📌 Iniciando com o _Template de Implementação_
+
+Concluindo a padronização da gestão e da organização de documentos, o **ISO29110-Lite** fornece um template para estruturar a documentação do projeto.  
+
+▶️ O template está disponível via **NPM** no endereço [https://www.npmjs.com/package/@sysdevtools/iso29110-lite-template](https://www.npmjs.com/package/@sysdevtools/iso29110-lite-template)
+
+A instalaçao pode ser feita pelo comando:
+
+```bash
+npm install -g iso29110lite@template
+```
+
+Esse template inclui a estrutura de diretórios e arquivos necessários para a gestão da documentação.  
+
+🔎 Para mais detalhes, consulte **[Documentação do ISO29110-Lite Template](./docs/pt-br/adoption/template-base.md)**.  
+
+---
+
+### 📌 Automação e Padronização com o ISOL  
+
+O **ISOL** é um utilitário interativo desenvolvido em Vue.js de **arquivo único** (_single-file application_), responsável por toda a gestão da documentação.
+
+🔹 **Principais funcionalidades:**  
+
+✅ **Criação e preenchimento de POPs e DOCs** → Interface intuitiva para preenchimento guiado dos documentos.  
+✅ **Controle de Não Conformidades (NCs)** → Registro automatizado e rastreável de NCs.  
+✅ **Exportação estruturada** → Geração de versões em **HTML dinâmico** (wiki interativa) ou **PDFs formais**.  
+✅ **Banco de Dados Local (SQLite)** → Armazena POPs, DOCs e NCs localmente, garantindo persistência e rastreabilidade.  
+✅ **Rastreamento e versionamento** → Mantém histórico de revisões, garantindo que as atualizações sejam documentadas corretamente.  
+
+💡 > **"No ISO29110-Lite, a automação não apenas simplifica o trabalho, mas garante rastreabilidade e conformidade contínua."**  
+
+🔎 Para detalhes técnicos e como usar o ISOL, acesse **[Documentação do ISOL](./isol/README.md)**.  
+
+## Integração com _FlowED_
+
+O ISO29110-Lite faz parte de um ecossistema maior de ferramentas de desenvolvimento e gestão de projetos. Ele se integra perfeitamente ao [`FlowED`](https://github.com/SysDevTools/FlowED), um sistema de gestão de projetos com base na autoeducação.
+Neste cenário, enquanto o `FlowED` gerencia o fluxo do projeto, o ISO29110-Lite fornece a gestão de procedimentos.
+
+A documentação para o uso do ISO29110-Lite com o FlowED pode ser obtida diretamente no repositório do FlowED, onde é mantida.
+
+🔎 Para mais detalhes sobre essa integração, consulte **[FlowED <-> ISO29110-Lite](https://github.com/SysDevTools/FlowED/blob/main/docs/pt-br/philosophy/iso29110-lite-alignment.md)** (link externo)
 
 ## Contribuição
 
@@ -160,7 +217,7 @@ Para mais detalhes sobre como contribuir, consulte o [Guia de Contribuição](./
 
 ## Contato
 
-Para dúvidas ou sugestões, entre em contato através do email: <contato@flowed.info>
+Apesar de ser um projeto independente, o esforço de desenvolvimento deste projeto faz parte do Ecossistea do FlowED. Assim, para dúvidas ou sugestões, entre em contato através do email de contato do FlowED: <contato@flowed.info>
 
 ## Licença
 
